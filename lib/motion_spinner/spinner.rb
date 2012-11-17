@@ -8,7 +8,7 @@ module Spinner
   end
 
   def self.stop(spinner)
-    @spinner.stopAnimating
- 	  @spinner.removeFromSuperview
+    spinner.stopAnimating
+ 	  spinner.removeFromSuperview
   end
 end
