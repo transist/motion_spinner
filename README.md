@@ -18,7 +18,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+      (main)> @spinner = Spinner.start(self.view)        # to start the spinner
+      => UIActivityIndicatorView(#959e600, [[141.5, 221.5], [37.0, 37.0]]), child of UIView(#935db10)
+      (main)> Spinner.start(@spinner)                    # to stop the spinner
 
 ## Contributing
 
